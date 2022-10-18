@@ -26,5 +26,6 @@
     "titleBar.inactiveBackground": "#29fef799",
     "titleBar.inactiveForeground": "#15202b99"
   },
-  "peacock.color": "#29fef7"
+  "peacock.color": "#29fef7",
+  "cSpell.words": ["zustand"]
 }
