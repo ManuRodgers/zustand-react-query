@@ -9,12 +9,15 @@ class CounterStore {
   constructor(
     private readonly set: Store<CounterStore>['setState'],
     private readonly get: Store<CounterStore>['getState'],
-    private readonly store: Mutate<Store<CounterStore>, []>
+    private readonly store: Mutate<
+      Store<CounterStore>,
+      [/* add middleware mutators here */]
+    >
   ) {}
 
   counter = 0;
 
-  private add = (x: number) => {
+  add = (x: number) => {
     this.set((state) => ({ counter: state.counter + x }));
   };
 

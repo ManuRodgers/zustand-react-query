@@ -27,5 +27,5 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.color": "#29fef7",
-  "cSpell.words": ["zustand"]
+  "cSpell.words": ["immer", "zustand"]
 }

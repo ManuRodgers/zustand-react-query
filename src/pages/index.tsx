@@ -17,7 +17,7 @@ const HomePage: NextPage = () => {
       </Typography>
       <Slider
         defaultValue={30}
-        className='text-teal-300'
+        className='text-teal-600'
         componentsProps={{ thumb: { className: 'rounded-sm' } }}
       />
       <Button
