@@ -1,4 +1,4 @@
-// !Derive a union type from an object
+// !turn an object type into an union type
 export const fruitCounts = {
   apple: 1,
   pear: 4,
